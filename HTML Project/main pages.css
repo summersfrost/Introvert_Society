@@ -1,0 +1,147 @@
+/*NAV*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	font-size: 20pt;
+	background-color: rgba(0,0,139,1);
+}
+li{
+	float: left;
+	border-right: solid gray 10px;
+	border-left: solid gray 10px;
+}
+
+
+li a{
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding:22px;
+	font-family: algerian;
+	font-weight: bold;
+   font-variant: small-caps;
+}
+li a:hover{
+	display: block;
+	color:black;
+	text-decoration: none;
+	font-family: algerian;
+
+	font-weight: bold;
+   font-variant: small-caps;
+   background-color: yellow;
+}
+/*BACKGROUND*/
+body{
+	
+	background-image: url(ima.jpeg);
+	background-repeat:no-repeat; 
+	background-size:cover;
+	
+	
+}
+h1 {
+	padding:40px;
+	background-image: url(OVERLAY.jpeg);
+	font-family: Times New Roman;
+	font-variant: small-caps;
+	text-align: center;
+	color:white;
+	
+}
+.leftcolumn {
+	float: left;
+	width: 70%
+}
+.rightcolumn{
+	float: left;
+	width: 30%
+}
+.img1{
+	width:800px;
+	height:400px;
+	margin:auto;
+	 padding: auto; 
+	 display: block;
+	 border: 3px solid blue;
+}
+ .title{
+	text-align: center;
+	font-style: bold;
+	font-variant: small-caps;
+	font-family: cursive; 
+	color: white;
+	font-size: 40pt;
+
+}
+.content{
+	text-align: justify;
+	font-family: arial, tahoma;
+	color: white;
+	font-size: 18pt;
+}
+.content-title {
+	color: white;
+	font-size: 40pt;
+}
+#img2{
+	width:300px;
+	height:200px;
+	margin:auto;
+	 padding: auto; 
+	 display: block;
+	 border: 3px solid blue;
+}
+.ads{
+ width:300px; 
+ 	height:200px;
+ 	display: block;
+ 	 margin: auto;
+	padding: auto;
+}
+
+
+.ads-info{
+	text-align: center;
+}
+.ads-info a{
+	font-family: sans-serif;
+	font-size: 18pt;
+	color: blue;
+}
+.ads-info a:hover{
+	font-family: sans-serif;
+	font-size: 18pt;
+	color: red;
+	
+}
+
+.related{
+ width:500px; 
+ 	height:300px;
+ border: white;
+}
+.related-info{
+	text-align: justify;
+}
+.related-info a{
+	font-family: sans-serif;
+	font-size: 18pt;
+	color: blue;
+}
+.related-info a:hover{
+	font-family: sans-serif;
+	font-size: 18pt;
+	color: red;
+	
+}
+.related-art{
+	font-size: 28pt;
+	color:white;
+}
+
+
+
+	
